@@ -1,0 +1,7 @@
+numpy
+scipy
+torch
+ase
+pymatgen
+chgnet
+mcp>=1.2

@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "inventor-argon": {
+      "command": "python",
+      "args": ["B:\games\inventor-argon\mcp_server.py"],
+      "env": { "INVENTOR_DASHBOARD_URL": "http://127.0.0.1:8050" }
+    }
+  }
+}
