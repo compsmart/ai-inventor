@@ -39,7 +39,7 @@ python run_inventor.py --serve --continuous --interval 20   # run forever with t
 python run_inventor.py --reset                         # start fresh from primitives
 ```
 
-State is written to `data/` (library, novel registry, neural checkpoint), which is git-ignored and created on first run.
+State lives in `data/` (library, novel registry, neural checkpoint). A snapshot of a real run is included so you can explore the dashboard and MCP server immediately; run `python run_inventor.py --reset` to clear it and start from primitives.
 
 | Flag | Meaning |
 |---|---|
